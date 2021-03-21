@@ -1,10 +1,109 @@
-# Getting Started with Create React App
+<a name="languages"></a>
+# LabeX
+
+### Website >>> [nyhv-labex.surge.sh](http://nyhv-labex.surge.sh)
+
+<a id="pt-readme"></a>
+### Português | [English](#en-readme)
+Front-end do Projeto Labe-X do bootcamp da escola Labenu.
+Um site para criar e gerenciar viagens especiais, onde você pode logar como admin ou visualizar as viagens como visitante e aplicar!
+Essa página utiliza uma API desenvolvida pela Labenu.
+
+Projeto desenvolvido com [Create React App](https://github.com/facebook/create-react-app).
+
+### Login Admin: 
+**email:** astrodev@gmail.com.br
+**senha:** 123456
+
+<a name="pt-menu"></a>
+- [Primeiros Passos](#primeiros-passos)
+- [Scripts Disponíveis](#pt-scripts)
+- [Funcionalidades](#funcionalidades)
+- [Bibliotecas e Frameworks](#bibliotecas)
+
+<a id="primeiros-passos"></a>
+## Primeiros Passos
+
+### `git clone <repository-url>`
+
+Para clonar esse repositório no seu computador.
+
+### `npm install`
+
+Para instalar as dependências necessárias para rodar o projeto.
+
+<a id="pt-scripts"></a>
+## Scripts Disponíveis
+
+### `npm start`
+
+Roda a aplicação no modo de desenvolvimento.\
+Abre o [http://localhost:3000](http://localhost:3000) para visualização no browser.
+
+A página irá recarregar a cada alteração no código.\
+Você também poderá ver os erros no console.
+
+### `npm test`
+
+Roda o test runner no modo interativo de observação.\
+Veja a sessão sobre [running tests](https://facebook.github.io/create-react-app/docs/running-tests) para mais informações.
+ 
+### `npm run build`
+
+Constrói a aplicação para produção na pasta `build`.\
+Veja a sessão sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
+
+<a id="funcionalidades"></a>
+## Funcionalidades:
+### Admin
+* Login
+* Criar viagens
+* Visualizar todas as viagens
+* Exibir detalhes da viagem
+* Aprovar ou desaprovar candidatas(os)
+
+### Visitante
+* Visualizar todas as viagens
+* Candidatar-se à uma viagem
+
+<a id="bibliotecas"></a>
+## Bibliotecas e Frameworks
+* React
+* React Router Dom
+* Axios
+* styled-components
+
+*Desenvolvido com amor por Aline "Nyh" Vignoli*
+
+---
+
+<a id="en-readme"></a>
+### [Português](#pt-readme) | English
+Front-end of Labe-X Project of Labenu school bootcamp.
+An website to create and manage spacial trips, where you may login as admin or just view the page as a visitor and apply to trips!
+This page uses an API developed by Labenu.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<a name="menu"></a>
+- [Getting Started](#getting-started)
+- [Available Scripts](#scripts)
+- [Features](#features)
+- [Libs and Frameworks](#libs)
 
-In the project directory, you can run:
+<a id="getting-started"></a>
+## Getting Started
+
+### `git clone <repository-url>`
+
+To clone this repository in your computer.
+
+### `npm install`
+
+To install all the necessary dependencies to run the project.
+
+<a id="scripts"></a>
+## Available Scripts
 
 ### `npm start`
 
@@ -22,49 +121,26 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<a id="features"></a>
+## Features:
+### Admin
+* Login
+* Create trip
+* View all trips
+* Display selected trip details
+* Aprove or desaprove candidates
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Visitor
+* View all trips
+* Apply to a trip
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a id="libs"></a>
+## Libs and Frameworks
+* React
+* React Router Dom
+* Axios
+* styled-components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Developed with love by Aline "Nyh" Vignoli*
