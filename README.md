@@ -12,8 +12,10 @@ Essa página utiliza uma API desenvolvida pela Labenu.
 Projeto desenvolvido com [Create React App](https://github.com/facebook/create-react-app).
 
 ### Login Admin: 
-**email:** astrodev@gmail.com.br
-**senha:** 123456
+```
+email: astrodev@gmail.com.br
+senha: 123456
+```
 
 <a name="pt-menu"></a>
 - [Primeiros Passos](#primeiros-passos)
@@ -84,6 +86,12 @@ An website to create and manage spacial trips, where you may login as admin or j
 This page uses an API developed by Labenu.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Login Admin: 
+```
+email: astrodev@gmail.com.br
+password: 123456
+```
 
 <a name="menu"></a>
 - [Getting Started](#getting-started)
